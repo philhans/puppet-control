@@ -1,0 +1,8 @@
+---
+profile::nginx::vhosts:
+  - 'fqdn': 'philhansen1.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'philhansen1b.mylabserver.com'
+    'port': 80
+    'server_aliases': 'philhansen1b1.mylabserver.com'
