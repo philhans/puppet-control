@@ -33,8 +33,8 @@ mod 'ntp',
 
 mod 'profile',
   :git    => 'https://github.com/philhans/puppet-profile.git',
-  :ref    => 'development'
+  :ref    => 'master'
 
 mod 'role',
   :git    => 'https://github.com/philhans/puppet-role.git',
-  :ref    => 'development'
+  :ref    => 'master'
