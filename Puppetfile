@@ -11,6 +11,7 @@ mod 'garethr/docker',         '5.3.0'
 mod 'puppetlabs/apt',         '2.3.0'
 mod 'stahnma/epel',           '1.2.2'
 mod 'puppetlabs/concat',      '2.2.1'
+mod 'puppetlabs/apache',      '1.10.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
