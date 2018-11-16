@@ -44,6 +44,7 @@ node 'philhansen2.mylabserver.com' {
 }
 
 node default {
+  hiera_include('classes')
   notify { "This is the default node": }
   class { 'java': }
 #  class { 'ntp': }
