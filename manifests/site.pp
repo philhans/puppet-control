@@ -28,6 +28,12 @@ node 'philhansen3' {
   notify { 'This matches short name': }
 }
 
+node 'philhansen1.mylabserver.com': {
+  notify { 'test msg': 
+    message => 'ph1 using node def',
+  }
+}
+
 #node /^philhansen3/ {
 #  notify { "This is a node def for regx": }
 #}
