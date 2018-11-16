@@ -7,4 +7,4 @@ profile::nginx::vhosts:
     'port': 80
     'server_aliases': 'philhansen1b1.mylabserver.com'
 classes:
-  - profile:nginx
+  - profile::nginx
