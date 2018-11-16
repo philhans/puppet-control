@@ -28,9 +28,9 @@ node 'philhansen3.mylabserver' {
   notify { 'This matches nname': }
 }
 
-node /^philhansen3/ {
-  notify { "This is a node def for regx": }
-}
+#node /^philhansen3/ {
+#  notify { "This is a node def for regx": }
+#}
 
 node 'philhansen2.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
